@@ -1,0 +1,65 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+body{
+  background-image: url('../img/email.jpg');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+#containerEmail{
+  border: 2px solid black;
+  background-color: rgba(170,170,170,0.6);
+  padding: 2%;
+  width: 60%;
+  height: 80%;
+  margin: auto;
+}
+#containerEmail h1{
+  text-shadow: 2px 4px 4px black;
+}
+#containerEmail p{
+  transform: scale(0.8) translate(0,-30%);
+}
+input{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 80%;
+}
+textarea{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 80%;
+}
+button{
+  padding:0.5% 1%;
+  font-weight: bold;
+  background-color: green;
+  border-radius: 10px 10px 10px 10px;
+  margin: 2%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 5px;
+  position: relative;
+}
+button:hover{
+  box-shadow: 0 2px;
+  top: 3px;
+}
+button:active{
+  box-shadow: none;
+  top:5px;
+}
+
+h3{
+  background-color: rgba(170,170,170,0.6);
+  padding: 2%;
+  color: white;
+}
